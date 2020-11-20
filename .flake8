@@ -1,0 +1,8 @@
+[flake8]
+# E231 missing whitespace after ','
+# E203 whitespace before ':'
+# E251 unexpected spaces around keyword / parameter equals
+# W503 line break before binary operator
+ignore = E231, E203, E251, W503
+max-line-length = 120
+max-complexity = 13

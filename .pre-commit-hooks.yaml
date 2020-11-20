@@ -1,0 +1,9 @@
+- id: packages-inspector
+  name: Packages inspector
+  description: Check missing and unused dependencies
+  entry: packages_inspector
+  language: python
+  language_version: "3.8"
+  types: [python]
+  pass_filenames: false
+  args: ["--error-on-diff", "--no-interaction", "--no-pypi-calls"]
